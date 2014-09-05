@@ -1,0 +1,76 @@
+(ExpressProject "vga"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\vga.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "VGA.asc")
+    (OTHER_Netlist_File2 "VGA.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orpads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Outputs"
+    (File ".\vga.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VGA_FEM90
+      (FullPartName "VGA_FEM90.Normal")
+      (LibraryName "Z:\C_HOST\RASPI\ROBOS\GERT.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 20x2"
+      (FullPartName "CONN SOCKET 20x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Z:\C_HOST\RASPI\vga\vga.dsn")
+      (Path "Design Resources" "Z:\C_HOST\RASPI\vga\vga.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" "Z:\C_HOST\RASPI\vga\vga.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 497"))
+      (Tab 0)))
+  (MPSSessionName "rob"))
